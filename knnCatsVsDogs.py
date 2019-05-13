@@ -17,13 +17,12 @@ from sklearn.neighbors import KNeighborsClassifier  #classificador knn
 from sklearn.metrics import classification_report, confusion_matrix  #matriz de confusao
 
 
-start=3
-stop=15
-step=3
+START=9
+STOP=15
+STEP=3
+K_FOLD=10
 
-error = []
-
-def run_knn(k):
+def run_knn():
 	# Se o dataset já tiver sido criado utilizar o comando
 	train_data = np.load('train_data.npy')
 	#Creating pandas dataframe from numpy array
@@ -45,24 +44,38 @@ def run_knn(k):
 	X_test = scaler.transform(X_test) 
 
 	#treinamento e predicoes
-	classifier = KNeighborsClassifier(n_neighbors=k)  
-	classifier.fit(X_train, y_train)  
+	neighbors = range(START, STOP, STEP)
 
-	y_pred = classifier.predict(X_test) 
-	error.append(np.mean(y_pred != y_test))
+	# empty list that will hold cv scores
+	cv_scores = []
 
-	#matriz de confusão
-	#print(confusion_matrix(y_test, y_pred))  
-	#print(classification_report(y_test, y_pred))  
+	# perform k-fold cross validation
+	for k in neighbors:
+	    knn = KNeighborsClassifier(n_neighbors=k)
+	    scores = cross_val_score(knn, X_train, y_train, cv=K_FOLD, scoring='accuracy')
+	    cv_scores.append(np.mean(scores)) #media da acuracia
+	    
+	    #classificacao
+	    #knn.fit(X_train, y_train)  
+		#y_pred = knn.predict(X_test) 
+	
+		#matriz de confusão
+		#print(confusion_matrix(y_test, y_pred))  
+		#print(classification_report(y_test, y_pred))  
 
-# Calculating error for K values between 1 and 40
-for i in range(start, stop, step):  
-   run_knn(i)
+	#plot the misclassification error versus K
+	# changing to misclassification error
+	MSE = [1 - x for x in cv_scores]
 
-#plot error
-plt.figure(figsize=(12, 6))  
-plt.plot(range(start, stop, step), error, color='red', linestyle='dashed', marker='o',  
-         markerfacecolor='blue', markersize=10)
-plt.title('Error Rate K Value')  
-plt.xlabel('K Value')  
-plt.ylabel('Mean Error')  
+	# determining best k
+	optimal_k = neighbors[MSE.index(min(MSE))]
+	print ("The optimal number of neighbors is %d" % optimal_k)
+
+	# plot misclassification error vs k
+	plt.plot(neighbors, MSE)
+	plt.xlabel('Number of Neighbors K')
+	plt.ylabel('Misclassification Error')
+	plt.show()
+
+	
+knn_model=run_knn()

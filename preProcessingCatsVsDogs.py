@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt #desenhar graficos
 
 TRAIN_DIR = './train'
 IMG_SIZE = 50
-LR = 1e-3
 
 def label_img(img): 
     word_label = img.split('.')[-3]
