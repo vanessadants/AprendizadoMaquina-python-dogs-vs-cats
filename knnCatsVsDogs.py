@@ -36,6 +36,11 @@ def run_knn():
 	#train and test split
 	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)  #80% train e 20% test
 
+	X_train=np.asarray(X_train);
+	X_test=np.asarray(X_test);
+	y_train=np.asarray(y_train);
+	y_test=np.asarray(y_test);
+
 	#escalonamento
 	scaler = StandardScaler()  
 	scaler.fit(X_train)
