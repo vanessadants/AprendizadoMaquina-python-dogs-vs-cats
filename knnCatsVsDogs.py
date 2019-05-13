@@ -11,28 +11,58 @@ from sklearn import preprocessing #o pacote de preprocessamento do skylearn nos 
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt #desenhar graficos
 import pandas as pd #data science
+from sklearn.model_selection import train_test_split  #dividir test and train
+from sklearn.preprocessing import StandardScaler #escalonamento
+from sklearn.neighbors import KNeighborsClassifier  #classificador knn
+from sklearn.metrics import classification_report, confusion_matrix  #matriz de confusao
 
-TRAIN_DIR = './train'
-TEST_DIR = './test'
-IMG_SIZE = 50
-LR = 1e-3
 
-MODEL_NAME = 'dogsvscats-{}-{}.model'.format(LR, '2conv-basic') # os tamanhos devem ser equivalentes
+start=3
+stop=15
+step=3
 
-def run_knn():
+error = []
+
+def run_knn(k):
 	# Se o dataset já tiver sido criado utilizar o comando
 	train_data = np.load('train_data.npy')
 	#Creating pandas dataframe from numpy array
-	dataset = pd.DataFrame({'Column1':train_data[:,0],
-							'Column2':train_data[:,1] 
-							#'Column3':train_data[:,2],
-							#'Column4':train_data[:,3],
-							#'Column5':train_data[:,4],
-							#'Column6':train_data[:,5],
-							#'Column7':train_data[:,6],
-							#'Column8':train_data[:,7]
-							})
-	print(dataset)	
+	dataset = pd.DataFrame({'Dados':train_data[:,0], 'Groundtruth':train_data[:,1] })
+	print(dataset.head())	
 
+	#Split dados e labels
+	X = dataset.iloc[:, :-1].values  
+	y = dataset.iloc[:, 1].values  
 
-knn_data = run_knn()
+	#train and test split
+	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)  #80% train e 20% test
+
+	#escalonamento
+	scaler = StandardScaler()  
+	scaler.fit(X_train)
+
+	X_train = scaler.transform(X_train)  
+	X_test = scaler.transform(X_test) 
+
+	#treinamento e predicoes
+	classifier = KNeighborsClassifier(n_neighbors=k)  
+	classifier.fit(X_train, y_train)  
+
+	y_pred = classifier.predict(X_test) 
+	error.append(np.mean(y_pred != y_test))
+
+	#matriz de confusão
+	#print(confusion_matrix(y_test, y_pred))  
+	#print(classification_report(y_test, y_pred))  
+
+# Calculating error for K values between 1 and 40
+for i in range(start, stop, step):  
+   run_knn(i)
+
+#plot error
+plt.figure(figsize=(12, 6))  
+plt.plot(range(start, stop, step), error, color='red', linestyle='dashed', marker='o',  
+         markerfacecolor='blue', markersize=10)
+plt.title('Error Rate K Value')  
+plt.xlabel('K Value')  
+plt.ylabel('Mean Error')  

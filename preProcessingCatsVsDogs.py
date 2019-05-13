@@ -12,11 +12,8 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt #desenhar graficos
 
 TRAIN_DIR = './train'
-TEST_DIR = './test'
 IMG_SIZE = 50
 LR = 1e-3
-
-MODEL_NAME = 'dogsvscats-{}-{}.model'.format(LR, '2conv-basic') # os tamanhos devem ser equivalentes
 
 def label_img(img): 
     word_label = img.split('.')[-3]
