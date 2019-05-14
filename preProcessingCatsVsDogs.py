@@ -13,10 +13,12 @@ import matplotlib.pyplot as plt #desenhar graficos
 import pandas as pd #data science
 
 
+
 TRAIN_DIR = './train'
 IMG_SIZE = 50
 N_IMGS=len(os.listdir(TRAIN_DIR))
-N_COMPONENTS=min(N_IMGS,IMG_SIZE*IMG_SIZE)
+N_COMPONENTS=45
+
 
 def label_img(img): 
     word_label = img.split('.')[-3]
@@ -83,7 +85,7 @@ principalComponents = pca.fit_transform(x)
 
 columns = []
 for i in range(0,N_COMPONENTS):
-    columns.append('principal component '+str(i))
+    columns.append('PCA'+str(i))
 
 principalDf = pd.DataFrame(data = principalComponents, columns = columns)
 
@@ -91,17 +93,18 @@ finalDf = pd.concat([principalDf, dataset[['Classe']]], axis = 1)
 
 print(finalDf.head(1))
 
-finalDf.to_csv('train_data.csv', index=False)
+finalDf.to_csv('train_data.csv', date_format=float, index=False)
 
 
-#pca_training_data=pca.transform(x)
-        
-#per_var_training=np.round(pca.explained_variance_ratio_* 100, decimals=1)
-#labels = columns
-#labels.append('Classe')
 #Desenhando gráfico para análise de componentes principais
-#plt.bar(range(1,len(per_var_training)+1),height=per_var_training)
-#plt.ylabel('Percentage of Explained Variance')
-#plt.xlabel('Principal Component')
-#plt.title('Scree Plot')
-#plt.show()
+pca_training_data=pca.transform(x)
+        
+per_var_training=np.round(pca.explained_variance_ratio_* 100, decimals=1)
+labels = columns
+labels.append('Classe')
+
+plt.bar(range(1,len(per_var_training)+1),height=per_var_training)
+plt.ylabel('Percentage of Explained Variance')
+plt.xlabel('Principal Component')
+plt.title('Scree Plot')
+plt.show()

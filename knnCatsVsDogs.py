@@ -15,6 +15,8 @@ from sklearn.model_selection import train_test_split  #dividir test and train
 from sklearn.preprocessing import StandardScaler #escalonamento
 from sklearn.neighbors import KNeighborsClassifier  #classificador knn
 from sklearn.metrics import classification_report, confusion_matrix  #matriz de confusao
+from sklearn.model_selection import cross_val_score #cross validation
+
 
 
 START=9
@@ -25,29 +27,31 @@ K_FOLD=10
 TRAIN_DIR = './train'
 IMG_SIZE = 50
 N_IMGS=len(os.listdir(TRAIN_DIR))
-N_COMPONENTS=min(N_IMGS,IMG_SIZE*IMG_SIZE)
+N_COMPONENTS=45
 
 def run_knn():
-	# Se o dataset já tiver sido criado utilizar o comando
-	#train_data = np.load('train_data.npy')
-	#Creating pandas dataframe from numpy array
-	#dataset = pd.DataFrame({'Dados':list(train_data[:,0].T), 'Groundtruth':train_data[:,1] })
 
-	# Assign colum names to the dataset
-	names = []
+	# Read dataset
+	# Separating out the features
+	target=['Classe']
+	features = []
 	for i in range(0,N_COMPONENTS):
-	    names.append('principal component '+str(i))
-	names.append('Classe')
+	    features.append('PCA'+str(i))
+	#names=features
+	#names.append(target)
 
-	# Read dataset to pandas dataframe
-	dataset = pd.read_csv('train_data.csv',dtype=float, names=names)  
+	dataset =np.genfromtxt('train_data.csv', dtype=float, delimiter=',', names=True)  
+	
+	# Separating features and target
+	X=[]
+	for f in features:
+		X.append(dataset[f])
+	X=np.asarray(X,dtype=float).T
+	
 
-	print(dataset.head())	
-
-	#Split dados e labels
-	X = dataset.iloc[:, :-1].values  
-	y = dataset.iloc[:, 1].values  
-
+	#X = X.view((float, len(X.dtype.names)))
+	y = dataset[target].astype(int)
+	 
 	#train and test split
 	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)  #80% train e 20% test
 
@@ -78,7 +82,7 @@ def run_knn():
 	    #classificacao
 	    #knn.fit(X_train, y_train)  
 		#y_pred = knn.predict(X_test) 
-	
+
 		#matriz de confusão
 		#print(confusion_matrix(y_test, y_pred))  
 		#print(classification_report(y_test, y_pred))  
