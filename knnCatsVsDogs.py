@@ -24,9 +24,19 @@ K_FOLD=10
 
 def run_knn():
 	# Se o dataset já tiver sido criado utilizar o comando
-	train_data = np.load('train_data.npy')
+	#train_data = np.load('train_data.npy')
 	#Creating pandas dataframe from numpy array
-	dataset = pd.DataFrame({'Dados':train_data[:,0], 'Groundtruth':train_data[:,1] })
+	#dataset = pd.DataFrame({'Dados':list(train_data[:,0].T), 'Groundtruth':train_data[:,1] })
+
+	# Assign colum names to the dataset
+	names = []
+	for i in range(0,N_COMPONENTS):
+	    names.append('principal component '+str(i))
+	names.append('Classe')
+
+	# Read dataset to pandas dataframe
+	dataset = pd.read_csv('train_data.csv',dtype=float, names=names)  
+
 	print(dataset.head())	
 
 	#Split dados e labels
