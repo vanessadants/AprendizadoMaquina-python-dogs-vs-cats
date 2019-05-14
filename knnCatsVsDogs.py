@@ -19,8 +19,8 @@ from sklearn.model_selection import cross_val_score #cross validation
 
 
 
-START=12
-STOP=24
+START=2
+STOP=14
 STEP=2
 K_FOLD=10
 
@@ -28,6 +28,7 @@ TRAIN_DIR = './train'
 IMG_SIZE = 50
 N_IMGS=len(os.listdir(TRAIN_DIR))
 N_COMPONENTS=45
+PESO=100
 
 def run_knn():
 
@@ -50,7 +51,7 @@ def run_knn():
 	
 
 	#X = X.view((float, len(X.dtype.names)))
-	y = dataset[target].astype(int)
+	y = PESO*dataset[target].astype(int)
 	 
 	#train and test split
 	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)  #80% train e 20% test
