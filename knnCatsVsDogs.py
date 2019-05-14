@@ -19,8 +19,8 @@ from sklearn.model_selection import cross_val_score #cross validation
 
 
 
-START=2
-STOP=14
+START=16
+STOP=50
 STEP=2
 K_FOLD=10
 
@@ -28,7 +28,7 @@ TRAIN_DIR = './train'
 IMG_SIZE = 50
 N_IMGS=len(os.listdir(TRAIN_DIR))
 N_COMPONENTS=45
-PESO=100
+PESO=1
 
 def run_knn():
 
