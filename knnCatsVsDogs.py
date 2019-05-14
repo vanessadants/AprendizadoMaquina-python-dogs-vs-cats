@@ -22,6 +22,11 @@ STOP=15
 STEP=3
 K_FOLD=10
 
+TRAIN_DIR = './train'
+IMG_SIZE = 50
+N_IMGS=len(os.listdir(TRAIN_DIR))
+N_COMPONENTS=min(N_IMGS,IMG_SIZE*IMG_SIZE)
+
 def run_knn():
 	# Se o dataset já tiver sido criado utilizar o comando
 	#train_data = np.load('train_data.npy')

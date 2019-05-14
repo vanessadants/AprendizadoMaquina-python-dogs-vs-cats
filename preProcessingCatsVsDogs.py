@@ -15,7 +15,7 @@ import pandas as pd #data science
 
 TRAIN_DIR = './train'
 IMG_SIZE = 50
-N_IMGS=len(tqdm(os.listdir(TRAIN_DIR)))
+N_IMGS=len(os.listdir(TRAIN_DIR))
 N_COMPONENTS=min(N_IMGS,IMG_SIZE*IMG_SIZE)
 
 def label_img(img): 
