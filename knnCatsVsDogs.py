@@ -19,9 +19,9 @@ from sklearn.model_selection import cross_val_score #cross validation
 
 
 
-START=9
-STOP=15
-STEP=3
+START=12
+STOP=24
+STEP=2
 K_FOLD=10
 
 TRAIN_DIR = './train'
