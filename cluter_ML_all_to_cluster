@@ -1,0 +1,230 @@
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 2 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N2.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 3 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N3.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 4 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N4.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 5 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N5.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 6 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N6.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 7 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N7.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 8 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N8.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 9 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N9.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 10 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N10.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 11 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 12 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N12.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 13 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N13.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 14 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N14.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 15 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N15.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 16 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N16.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 17 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N17.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 18 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N18.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 19 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N19.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 20 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N20.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.HierarchicalClusterer -N 21 -L COMPLETE -P -A weka.core.EuclideanDistance " -o all_to_cluster_hier_N21.arff
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 2 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N2_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 3 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N3_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 4 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N4_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 5 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N5_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 6 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N6_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 7 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N7_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 8 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N8_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 9 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N9_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 10 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N10_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 11 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N11_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 12 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N12_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 13 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N13_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 14 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N14_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 15 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N15_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 16 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N16_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 17 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N17_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 18 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N18_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 19 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N19_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 20 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N20_S11.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 21 -A weka.core.EuclideanDistance -S 11  " -o all_to_cluster_kmeans_N21_S11.arff
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 2 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N2_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 3 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N3_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 4 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N4_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 5 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N5_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 6 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N6_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 7 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N7_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 8 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N8_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 9 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N9_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 10 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N10_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 11 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N11_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 12 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N12_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 13 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N13_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 14 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N14_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 15 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N15_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 16 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N16_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 17 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N17_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 18 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N18_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 19 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N19_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 20 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N20_S37.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 21 -A weka.core.EuclideanDistance -S 37  " -o all_to_cluster_kmeans_N21_S37.arff
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 2 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N2_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 3 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N3_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 4 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N4_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 5 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N5_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 6 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N6_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 7 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N7_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 8 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N8_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 9 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N9_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 10 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N10_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 11 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N11_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 12 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N12_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 13 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N13_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 14 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N14_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 15 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N15_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 16 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N16_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 17 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N17_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 18 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N18_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 19 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N19_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 20 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N20_S57.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 21 -A weka.core.EuclideanDistance -S 57  " -o all_to_cluster_kmeans_N21_S57.arff
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 2 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N2_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 3 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N3_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 4 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N4_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 5 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N5_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 6 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N6_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 7 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N7_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 8 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N8_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 9 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N9_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 10 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N10_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 11 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N11_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 12 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N12_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 13 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N13_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 14 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N14_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 15 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N15_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 16 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N16_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 17 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N17_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 18 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N18_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 19 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N19_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 20 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N20_S83.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 21 -A weka.core.EuclideanDistance -S 83  " -o all_to_cluster_kmeans_N21_S83.arff
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 2 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N2_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 3 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N3_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 4 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N4_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 5 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N5_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 6 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N6_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 7 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N7_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 8 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N8_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 9 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N9_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 10 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N10_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 11 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N11_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 12 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N12_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 13 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N13_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 14 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N14_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 15 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N15_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 16 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N16_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 17 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N17_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 18 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N18_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 19 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N19_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 20 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N20_S113.arff
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.SimpleKMeans -N 21 -A weka.core.EuclideanDistance -S 113  " -o all_to_cluster_kmeans_N21_S113.arff
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 3 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 4 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 5 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 6 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 7 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 8 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 9 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 10 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 11 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 12 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 13 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 14 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 15 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 16 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 17 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 18 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 19 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 20 -M 1.0E-6 -S 11 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 21 -M 1.0E-6 -S 11 " -o
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 3 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 4 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 5 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 6 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 7 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 8 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 9 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 10 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 11 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 12 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 13 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 14 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 15 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 16 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 17 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 18 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 19 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 20 -M 1.0E-6 -S 17 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 21 -M 1.0E-6 -S 17 " -o
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 3 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 4 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 5 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 6 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 7 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 8 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 9 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 10 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 11 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 12 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 13 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 14 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 15 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 16 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 17 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 18 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 19 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 20 -M 1.0E-6 -S 37 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 21 -M 1.0E-6 -S 37 " -o
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 3 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 4 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 5 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 6 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 7 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 8 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 9 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 10 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 11 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 12 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 13 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 14 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 15 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 16 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 17 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 18 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 19 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 20 -M 1.0E-6 -S 57 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 21 -M 1.0E-6 -S 57 " -o
+
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 3 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 4 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 5 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 6 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 7 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 8 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 9 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 10 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 11 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 12 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 13 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 14 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 15 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 16 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 17 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 18 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 19 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 20 -M 1.0E-6 -S 113 " -o
+java -Xms512m -Xmx4096m -cp weka.jar weka.filters.unsupervised.attribute.AddCluster -i all_to_cluster.arff -W "weka.clusterers.EM -I 100 -N 21 -M 1.0E-6 -S 113 " -o
